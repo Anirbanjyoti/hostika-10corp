@@ -1,0 +1,1 @@
+# hostika-10corp
