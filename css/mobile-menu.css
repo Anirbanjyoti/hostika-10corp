@@ -1,0 +1,22 @@
+/*--Domain Good Mobile menu Syle
+==========================================*/
+@font-face {
+	font-family: 'feather';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/feather/feather.eot?1gafuo');
+	src: url('../fonts/feather/feather.eot?1gafuo#iefix') format('embedded-opentype'), url('../fonts/feather/feather.woff2?1gafuo') format('woff2'), url('../fonts/feather/feather.ttf?1gafuo') format('truetype'), url('../fonts/feather/feather.woff?1gafuo') format('woff'), url('../fonts/feather/feather.svg?1gafuo#feather') format('svg');
+}
+@media only screen and (max-width: 600px){
+	.drilldown .is-drilldown-submenu-parent > a::after {
+		content: '\e904';
+		font-family: 'feather';
+		position: absolute;
+		right: 0;
+		top: 0%;
+		margin-top: 0px;
+		border: inset 0px;
+		padding: 0.65em 1.25em;
+		color: #2a2b30;
+}
+}

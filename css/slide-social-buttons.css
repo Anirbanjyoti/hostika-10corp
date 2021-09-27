@@ -1,0 +1,118 @@
+/* Slide Social Buttons are a fun way to display your social media buttons
+ * 
+ * @author Anirban
+ *
+ */
+/*-- Social Like
+==========================================*/
+.social.like {
+    margin-top: 15px;
+}
+.social_like ul{
+    display: flex;
+    float: left;
+    margin-left: 0px;
+}
+.social_like a{
+        color: #AAA;
+}
+.social_like ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+.social_like .fs_icon {
+    width: 41px;
+    height: 38px;
+    font-size: 22px;
+    background: #3b5998;
+    margin-right: 2px;
+    padding: 5px 0px;
+}
+.rss .fs_icon {
+   background: #EE802F;
+}
+.rss .fs_icon:hover {
+    background: #EE802F;
+}
+.social_like ul li a i{
+    color: #fff;
+}
+/*--#social like--*/
+/*-- Social Button
+==========================================*/
+.social_icon {
+    float: right;
+}
+.social_icon ul{
+    display: flex;
+}
+.social_icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+.fs_icon{
+    width: 33px;
+    height: 35px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: bottom;
+    background: #181E26;
+    transition: .3s;
+    border-radius: 3px;
+    padding: 3px 2px;
+    overflow: hidden;
+}
+ul li a i{
+    display: block;
+    width: 100%;
+    color: #777;
+    transition: .3s;
+}
+.social_like ul li:hover a i:nth-child(1){
+    transform: translateY(-30px);
+}
+.social_like ul li:hover a i:nth-child(2){
+    transform: translateY(-30px);
+    color: #fff;
+}
+.social_like ul li:hover a i:nth-child(3){
+    transform: translateY(-30px);
+}
+.social_icon ul li:hover a i:nth-child(1){
+    transform: translateY(-30px);
+}
+.social_icon ul li:hover a i:nth-child(2){
+    transform: translateY(-30px);
+    color: #fff;
+}
+.social_icon ul li:hover a i:nth-child(3){
+    transform: translateY(-30px);
+}
+.social_icon ul li:hover:nth-child(1) a{
+    background: #3b5998;
+}
+.social_icon ul li:hover:nth-child(2) a{
+    background: #55acee;
+}
+.social_icon ul li:hover:nth-child(3) a{
+    background: #dc4e41;
+}
+.social_icon ul li:hover:nth-child(4) a{
+    background: #cb2027;
+}
+.social_icon ul li:hover:nth-child(5) a{
+    background: #86C9EF;
+}
+.social_icon ul li:hover:nth-child(6) a{
+    background: #171515;
+}
+.social_icon ul li:hover:nth-child(7) a{
+    background: #7B0099;
+}
+.social_icon ul li:hover:nth-child(8) a{
+    background: #007bb6;
+}
