@@ -1,0 +1,181 @@
+/*html,
+body {
+    height: 100%;
+    background: #f2f2f2;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+*/
+/* Controls
+---------------------------------------------------------------------- */
+#Portfolio{
+    padding: 50px 0 60px 0;
+}
+.controls {
+    padding: 1rem;
+    /*background: #333;*/
+    font-size: 0.1px;
+}
+
+.control {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 4.7rem;
+    height: 2.7rem;
+    cursor: pointer;
+    font-size: 13px;
+    /*color: #fff;*/
+    transition: background 150ms;
+    border: 1px solid #ccc;
+}
+.zero_text {
+    font-size: 0px;
+    /*color: #333;*/
+}
+.control:hover {
+    color: #fff;
+    background: #1ABC9C;
+}
+.control[data-sort]:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    top: calc(50% - 6px);
+    left: calc(50% - 6px);
+    transform:  translateY(1px) rotate(45deg);
+}
+
+.control.text {
+    width: auto;
+    height: auto;
+    float: right;
+    padding: 0 1rem;
+    font-size: .9rem;
+    height: 2.7rem;
+    font-weight: 800;
+    margin-left: .75rem;
+}
+
+.control.text:after {
+    display: none;
+}
+
+.control[data-sort*=":desc"]:after {
+    transform:  translateY(-4px) rotate(-135deg);
+}
+.mixitup-control-active[data-filter]:after {
+    background: transparent;
+}
+
+.control:first-of-type {
+    border-radius: 3px 0 0 3px;
+}
+
+.control:last-of-type {
+    border-radius: 0 3px 3px 0;
+}
+
+.control[data-filter] + .control[data-sort] {
+    margin-left: .75rem;
+}
+
+/* Container
+---------------------------------------------------------------------- */
+.container {
+    padding: 1rem;
+
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+/* Target Elements
+---------------------------------------------------------------------- */
+.mix {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 0.3rem;
+    position: relative;
+    backface-visibility: hidden; /* prevents flicker in chrome */
+    will-change: transform, opacity; /* prevents flicker in safari */
+}
+
+.mix.pink:before {
+    padding-top: 75%;
+}
+
+.mix.blue:before {
+    padding-top: 100%;
+}
+.mix img {
+    display: block;
+    max-width: 283px;
+}
+/* Grid Breakpoints
+---------------------------------------------------------------------- */
+
+/* 2 Columns */
+
+@media screen and (min-width: 401px) {
+    .container {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+/* 3 Columns */
+
+@media screen and (min-width: 541px) {
+    .container {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+/* 4 Columns */
+
+@media screen and (min-width: 961px) {
+    .container {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+/* 5 Columns */
+
+@media screen and (min-width: 1281px) {
+    .container {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+/*responsiveness*/
+@media only screen and (device-width: 768px) {
+    .mix img {
+            max-width: 235px;
+    }
+}
+@media only screen and (device-width: 375px) {
+    .mix img {
+            max-width: 325px;
+    }
+}
+@media only screen and (device-width: 375px) {
+    .mix img {
+            max-width: 0px;
+    }
+}
