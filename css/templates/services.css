@@ -1,0 +1,175 @@
+/* Hostika theme
+ * 
+ * @author Hostika
+ *
+ */
+/*-- Sicial Media box
+==========================================*/
+#social_media_boxes {
+    margin-top: 100px;
+    font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+
+#social_media_boxes h3 {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	color: #333;
+}
+#social_media_boxes h3 span.subtitle {
+	display: block;
+	margin-top: 5px;
+	color: #444;
+	font-weight: 300;
+	text-transform: none;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#social_media_boxes p {
+	margin-top: 17px;
+	line-height: 1.8;
+	color: #999;
+}
+/*Configure section*/
+#configure {
+    background: #F9F9F9;
+    text-align: center;
+    padding: 50px 0px
+}
+#configure h3 {
+	text-transform: uppercase;
+}
+#configure img {
+	margin-bottom: 40px;
+}
+#configure .heading-block span {
+	display: block;
+	font-weight: 300;
+	color: #777;
+	margin: 10px auto;
+	max-width: 600px;
+	font-size: 22px;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#configure .heading-block::after {
+    content: '';
+    display: block;
+    width: 40px;
+    border-top: 2px solid #444;
+    margin:30px auto;
+}
+.c-des {
+    padding: 0px 0px 0px 100px;
+}
+/*-- Configure box section
+==========================================*/
+.config-box a {
+	float: left;
+	font-size: 48px;
+	color: #1ABC9C;
+	margin-top: -15px;
+	margin-left: 20px;
+}
+.config-box h3{
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #333;
+	text-align: left;
+}
+.config-box p {
+	margin: 8px 0 0 0;
+	color: #999;
+	font-size: 14px;
+	text-align: left;
+	line-height: 2;
+}
+/*-- business section
+==========================================*/
+#business-insight {
+    padding: 60px 0px;
+}
+#business-insight h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 26px;
+}
+#business-insight p {
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+#business-insight .heading-block span {
+	display: block;
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 20px;
+	color: #777;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#business-insight .heading-block::after {
+    content: '';
+    display: block;
+    width: 40px;
+    border-top: 2px solid #444;
+    margin:30px 0px;
+}
+/*-- Statistics section
+==========================================*/
+#statistics {
+    padding: 60px 0px;
+}
+#statistics h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 26px;
+}
+#statistics p {
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+#statistics .heading-block span {
+	display: block;
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 20px;
+	color: #777;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#statistics .heading-block::after {
+    content: '';
+    display: block;
+    width: 40px;
+    border-top: 2px solid #444;
+    margin:30px 0px;
+}
+/*-- Account section
+==========================================*/
+.account {
+	background: #1ABC9C;
+	padding: 28px;
+	text-align: center;
+}
+.account:hover{
+	background: #444444;
+	cursor: pointer;
+}
+.account span{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+.account span a {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+	margin-right: 5px;
+	text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+@media print, screen and (min-width: 40em) {
+	.reveal {
+		width: 60%;
+		max-width: 75rem; } }
+.rh {
+	font-size: 1.5rem;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+	color: #444;
+	font-weight: 600;
+}
+.rp {
+	font-size: 1.25rem;
+	font-weight: 300;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+	margin-bottom: 30px;
+}
+.rf h4 {
+	margin-bottom: 10px;
+	font-weight: 700;
+	color: #555;
+	display: block;
+	font-size: 13px;
+}
+input {
+	width: 80% !important;
+	float: left;
+}
+.rf{
+	padding: 60px 0;
+}
+.rb {
+	width: 20%;
+	background: #dc3545;
+	padding: 12px;
+	border-radius: 0 3px 3px 0;
+}
+.reveal-form ul li {
+	float: left;
+}
+.rs {
+	font-size: 11px;
+	color: rgba(0, 0, 0, 0.5);
+}

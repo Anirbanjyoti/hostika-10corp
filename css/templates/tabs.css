@@ -1,0 +1,81 @@
+#border-tabs .tabs {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+#border-tabs{
+	margin: 0px 0px 50px 0px;
+}
+#border-tabs .tabs-title{
+	background: #F2F2F2;
+}
+#border-tabs .tabs-title > a:hover{
+	background: none;
+}
+#border-tabs li.tabs-title.is-active {
+    border-bottom: 0px;
+}
+#border-tabs li.tabs-title.is-active a {
+    position: relative;
+    top: -.5px;
+    background-color: #fff;
+}
+#border-tabs .tabs-title > a {
+    padding: 1.00rem 1.2rem;
+    font-size: 1.00rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+    color: #555;
+    line-height: 1.1;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+#border-tabs .tab-desc p {
+    font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+    color: #555;
+}
+#border-tabs .tabs-panel.is-active {
+    border-top: 1px solid #e6e6e6;
+}
+/*vertical tabs with border */
+#vertical-tabs{
+    margin-bottom: 50px; 
+}
+#vertical-tabs li.tabs-title.is-active {
+    border-right: 0px;
+}
+#vertical-tabs li.tabs-title.is-active a {
+    position: relative;
+    right: -.5px;
+    background-color: #fff;
+}
+#vertical-tabs ul li a {
+    color: #555;
+}
+#vertical-tabs .tabs-title > a:hover{
+    background: none;
+}
+.tabs.vertical > li {
+    display: block;
+    float: none;
+    width: auto;
+    background: #e6e6e6;
+}
+#vertical-tabs .vertical li a {
+    color: #444;
+    font-size: 14px;
+    font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+#vertical-tabs .tabs {
+    border-left: 0;
+    border-right: 0;
+}
+#vertical-tabs .tabs-content.vertical {
+    border-left: 1px solid #e6e6e6;
+}
+#vertical-tabs .tabs-panel p {
+    font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+    color: #555;
+}

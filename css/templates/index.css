@@ -1,0 +1,361 @@
+/*Index Page Style=============
+======================================================*/
+@font-face{
+   font-family:"Ubuntu"; 
+   src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+body{
+    font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+.under_menu {
+	background: #DCDCDC91;
+	padding: 80px 0px 10px 0px;
+	background-image: linear-gradient(#A5A4A491, #fff);
+}
+.orbit-caption {
+	position: absolute;
+	bottom: 0;
+	width: 70%;
+	margin-bottom: 0;
+	padding: 1rem;
+	background-color: transparent;
+	color: #fefefe;
+	top: 22%;
+	text-align: center;
+	margin-left: 14%;
+}
+.orbit-container {
+	max-height: 450px;
+}
+.orbit-image {
+	margin-top: -150px;
+}
+figcaption h2 {
+	text-transform: uppercase;
+	font-size: 64px;
+    font-weight: 700 !important;
+    font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+figcaption p {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+    font-weight: 300;
+}
+/*Index content*/
+#index_content {
+	padding: 40px 0;
+	background: #F5F5F5;
+	margin-bottom: 60px;
+}
+#index_content h3{
+	font-size: 24px;
+	font-weight: bold;
+	color: #444;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#index_content h3 span{
+	color: #1ABC9C;
+}
+#index_content span{
+	color: #888;
+}
+#index_content button{
+	background: #444;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+#index_content button:hover{
+	background: #1ABC9C;
+}
+#index_content .toppad {
+	padding-top: 9px;
+}
+/*rapid option*/
+#rapid_options {
+	margin: 50px auto;
+}
+#rapid_options .fa{
+	font-size: 45px;
+	cursor:pointer;
+}
+#rapid_options .title {
+	color: #333;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 30px;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#rapid_options span {
+	color: #444;
+	font-weight: 300;
+}
+/*-- Account section
+==========================================*/
+.account {
+	background: #1ABC9C;
+	padding: 28px;
+	text-align: center;
+}
+.account:hover{
+	background: #444444;
+	cursor: pointer;
+}
+.account span{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+.account span a {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+	margin-right: 5px;
+	text-decoration: underline;
+}
+/*-- business section
+==========================================*/
+#ecommerce-insight {
+    padding: 100px 0px;
+}
+#ecommerce-insight h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 30px;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#ecommerce-insight p {
+    color: #555;
+    margin-bottom: 30px;
+}
+#ecommerce-insight .ecom_list span {
+	display: block;
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 15px;
+	color: #555;
+	line-height: 1.8;
+	margin-bottom: 40px;
+}
+#ecommerce-insight .heading-block::after {
+    content: '';
+    display: block;
+    width: 40px;
+    border-top: 2px solid #444;
+    margin:30px 0px;
+}
+#ecommerce-insight .ecom_v {
+	text-align: center;
+	background: rgba(0,0,0,0.2) url("images/index/grid.png") repeat;
+}
+#ecommerce-insight .ecom_v .v_image{
+	width: 100%;
+}
+#ecommerce-insight .i-overlay img, .i-overlay i {
+	display: block;
+	position: absolute;
+	margin: -185px 0 0 216px;
+	height: 48px !important;
+	font-size: 48px;
+	line-height: 1;
+	color: #E5E5E5;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+}
+.ecom_list ul {
+	margin-left: 0px;
+}
+.ecom_list ul li {
+	list-style: none;
+	font-size: 15px;
+	color: #555;
+	line-height: 1.8;
+}
+/*shortcode*/
+#shortcode{
+	padding: 50px 0;
+	background: #F9F9F9;
+}
+#shortcode h3 {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #333;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#shortcode p {
+	color: #999;
+	font-size: 14px;
+	padding: 0px 40px 40px 0px;
+	line-height: 1.8;
+}
+#shortcode i {
+	color: #1ABC9C;
+	font-size: 30px;
+	margin: -2px 12px 0px 0px;
+	display: block;
+	float: left;
+}
+#shortcode .heading-block {
+	text-align: center;
+}
+#shortcode .heading-block::after {
+	content: '';
+	display: block;
+	margin: 30px auto 70px;
+	width: 40px;
+	border-top: 2px solid #444;
+}
+#shortcode .heading-block h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #333;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#shortcode .heading-block span {
+	font-size: 22px;
+	font-weight: 300;
+	color: #777;
+	display: block;
+	max-width: 700px;
+	margin: auto;
+    font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+/*Word-sample*/
+#work_sample {
+	padding: 50px 0;
+}
+#work_sample .heading-block {
+	text-align: center;
+}
+#work_sample .heading-block::after {
+	content: '';
+	display: block;
+	margin: 30px auto 70px;
+	width: 40px;
+	border-top: 2px solid #444;
+}
+#work_sample .heading-block h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#work_sample .heading-block span {
+	font-size: 20px;
+	font-weight: 300;
+	color: #777;
+	display: block;
+	margin: auto;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+.heading-block .heading-citation {
+	display: inline;
+	color: #1ABC9C;
+	font-size: 26px;
+}
+/*testimonials*/
+#testimonials{
+	padding: 50px 0;
+	background: #F9F9F9;
+}
+#testimonials h3 {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #333;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#testimonials .heading-block {
+	text-align: center;
+}
+#testimonials .heading-block::after {
+	content: '';
+	display: block;
+	margin: 30px auto 70px;
+	width: 40px;
+	border-top: 2px solid #444;
+}
+#testimonials .heading-block h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#testimonials .heading-block span {
+	font-size: 20px;
+	font-weight: 300;
+	color: #777;
+	display: block;
+	max-width: 700px;
+	margin: auto;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#testimonials .testi-image {
+	float: left;
+	padding-left: 40px;
+}
+#testimonials .testi-image img {
+	border-radius: 50%;
+	margin-right: 15px;
+	margin-bottom: 50px;
+}
+#testimonials .testi-content {
+	font-size: 14px;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+	color: #555;
+	font-style: italic;
+	margin-bottom: 65px;
+	padding-right: 56px;
+}
+#testimonials .testi-meta {
+	margin-top: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 119px;
+}
+#testimonials .testi-meta::before {
+	content: '\2013';
+}
+#testimonials .testi-meta span {
+	display: block;
+	font-weight: normal;
+	color: #999;
+	font-size: 12px;
+	text-transform: none;
+	padding-left: 10px;
+}
+.testi_border {
+	border-left: 1px dashed #DDD;
+}
+.testi_border_up {
+	border-top: 1px dashed #DDD;
+	border-right: 1px dashed #DDD;
+	padding-top: 25px;
+}
+.rbnone{
+	border-right: none;
+}
+@media only screen and (min-width:760px) and (max-width:768px){
+	#testimonials .testi-image {
+	float: none;
+}
+#ecommerce-insight .i-overlay img, .i-overlay i {
+	margin: -132px 0 0 121px;
+}
+}
+@media only screen and (max-width:760px){
+	figcaption p {
+		display: none;
+	}
+}

@@ -1,0 +1,31 @@
+#quick-contact{
+	margin-bottom: 50px;
+}
+#quick-contact h5{
+	font-size: 15px;
+	font-weight: 600;
+	color: #444;
+	margin-bottom: 25px;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+.m-control{
+	height: auto;
+	min-height: 130px;
+}
+.qb{
+	background: #1abc9c;
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 9px 17px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.15);
+	text-transform: uppercase;
+}
+.qb:hover{
+	background: #1abc9c;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+#quick-contact [type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], textarea{
+	color: #555;
+	font-size: 15px;
+}

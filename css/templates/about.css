@@ -1,0 +1,166 @@
+/*About Us Style==============
+============================================*/
+@font-face{
+   font-family:"Ubuntu"; 
+   src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+body{
+    font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#slider-top{
+	text-align: center;
+	padding: 50px 0;
+}
+#slider-top h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#slider-top p {
+	font-size: 22px;
+	font-weight: 300;
+	color: #777;
+	max-width: 700px;
+	line-height: 1.5;
+	margin:auto;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#about-slider{
+	margin-bottom: 50px;
+}
+#about-counter .fa{
+	font-size: 56px;
+}
+#about-counter .title{
+	color: #333;
+	text-transform: uppercase;
+}
+#about-middle-content{
+	margin:50px 0;
+}
+#about-middle-content h3{
+	font-size: 24px;
+	font-weight: bold;
+	color: #444;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#about-middle-content h3 span{
+	color: #1ABC9C;
+}
+#about-middle-content span{
+	color: #888;
+}
+#about-middle-content button{
+	background: #1ABC9C;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+#about-middle-content button:hover{
+	background: #444;
+}
+#about-middle-content .toppad {
+	padding-top: 9px;
+}
+.mi_c{
+	background: #F5F5F5;
+	padding: 30px 10px;
+}
+#main-content {
+	text-align: center;
+}
+#main-content h3 {
+	font-weight: 700;
+	color: #333;
+}
+#main-content span {
+	font-size: 22px;
+	font-weight: 300;
+	color: #777;
+	max-width: 700px;
+	line-height: 1.5;
+	margin: auto;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+.m_c::after {
+	content: '';
+	display: block;
+	margin: 30px auto 0;
+	width: 40px;
+	border-top: 2px solid #444;
+}
+#about_team{
+	margin-top: 50px;
+}
+.team.team-list .team-image {
+	float: left;
+	width: 250px;
+	margin-right: 30px;
+}
+#about_team .social_icon {
+	float: left;
+	margin-top: 25px;
+}
+#about_team .social_icon ul {
+	margin-left: 0;
+}
+#about_team .fs_icon {
+	background: #ccc;
+	border-radius: 50px;
+}
+#about_team .bot_mar {
+	margin-bottom: 50px;
+}
+.team-content {
+	margin-top: 15px;
+}
+.team-title h4 {
+	color: #444;
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700; 
+}
+.team-title span {
+	display: block;
+	color: #1ABC9C;
+	font-weight: 400;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 15px;
+	margin-top: 5px;
+}
+.team-content p{
+	margin-top: 15px;
+	color: #777;
+	line-height: 1.8;
+	font-size: .875rem;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+}
+#about-counter .single-coutnerup .count-num {
+	font-size: 50px;
+}
+.single-coutnerup .code{
+	color: #e74c3c;
+}
+.single-coutnerup .bri{
+	color: #16A085;
+}.single-coutnerup .cup{
+	color: #9B59B6;
+}
+@media only screen and (max-width:768px) {
+	.team.team-list .team-image {
+		float: left;
+		width: 100%;
+		margin-right: 30px;
+	}
+}
+@media only screen and (max-width:768px) {
+	.testimonial .description {
+		width: 100%;
+	}
+}

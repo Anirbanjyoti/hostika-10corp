@@ -1,0 +1,14 @@
+.testi-bird {
+    text-align: center;
+    font-size: 45px;
+    color: #1ABC9C;
+}
+.testimonial-slider {
+    padding: 10px 20px 0px;
+}
+.testimonial .description{
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+    font-style: italic;
+    line-height: 1.8;
+    color: #555;
+}

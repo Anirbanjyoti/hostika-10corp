@@ -1,0 +1,39 @@
+/* Hostika theme
+
+  @author Hostika
+ 
+ */
+/*-- Breadcrumb
+==========================================*/
+.breadcrumbs li:not(:last-child)::after{
+	content: '/';
+	color: #333;
+}
+#breadcrumb_bar {
+	background: #DCDCDC91;
+	padding: 80px 0px 50px;
+	background-image: linear-gradient(#A5A4A491, #fff);
+}
+.b_crumbs {
+    float: right;
+    margin-top: 25px;
+}
+.page_title {
+    float: left;
+}
+.page_title h2 {
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.page_title span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #7777778f;
+    font-size: 18px;
+}
+/*--#Breadcrumbs---*/

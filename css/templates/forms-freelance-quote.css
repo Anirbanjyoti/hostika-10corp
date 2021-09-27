@@ -1,0 +1,88 @@
+@font-face{
+   font-family:"Ubuntu"; 
+   src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+.file_up ul {
+    margin: 0;
+}
+.file_up ul li{
+	float: left;
+}
+.file_up ul li [type="text"]{
+	width: 475px;
+}
+#forms-freelance-quote .ffq-desc {
+	padding-left: 3rem;
+}
+.dropcap {
+	float: left;
+	font-size: 42px;
+	line-height: 1;
+	margin: 0 5px 0 0;
+	text-transform: uppercase;
+}
+#forms-freelance-quote p {
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+	color: #555;
+	line-height: 1.8;
+}
+#forms-freelance-quote blockquote {
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+	color: #555;
+	border-left: 5px solid #eee;
+	padding: 20px 0px 20px 15px;
+	font-size: 1.0rem;
+	font-weight: 700;
+	letter-spacing: .5px;
+}
+#forms-freelance-quote select {
+	color: #555;
+	font-size: 15px;
+}
+.mt{
+	margin-top: 3em;
+}
+.mb{
+	margin-bottom: 3em;
+}
+.form-gr {
+	text-transform: uppercase;
+	color: #555;
+	font-family: 'Ubuntu', 'Montserrat', 'Lato', 'Open Sans', 'PT Serif', 'Roboto', sans-serif;
+	font-weight: 700;
+	margin: 10px 0;
+}
+.form-file-input{
+	margin: 20px 0px 10px;
+}
+.fil-upload-btn {
+	color: #fff !important;
+	border-radius: 0px 5px 5px 0px !important;
+	padding-top: 10px !important;
+	background: #6c757d !important;
+}
+.fil-upload-btn:hover {
+	background: #5d646a !important;
+}
+
+.inputfile-name {
+	border-radius: 5px 0px 0px 5px !important;
+}
+.columns.fp {
+	padding: 0;
+}
+.button.send-quote {
+	background: #6c757d;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.button.send-quote:hover {
+	background: #5d646a;
+}
+
+/*Placehoder text color*/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #828689;
+  font-size: 14px;
+  opacity: 1; /* Firefox */
+}
